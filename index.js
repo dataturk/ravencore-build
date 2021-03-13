@@ -320,7 +320,7 @@ function startGulp(name, opts) {
   });
 
   gulp.task('release:push', function(cb) {
-    git.push('OverstockMedici', 'master', {
+    git.push('dataturk', 'master', {
       args: ''
     }, cb);
   });
@@ -329,7 +329,7 @@ function startGulp(name, opts) {
     var pjson = require('../../package.json');
     var name = 'v' + pjson.version;
     git.tag(name, 'Release ' + name, function() {
-      git.push('OverstockMedici', name, cb);
+      git.push('dataturk', name, cb);
     });
   });
 
@@ -354,7 +354,7 @@ function startGulp(name, opts) {
       browser ? 'browser' : 'noop',
       // Commit
       'release:build-commit',
-      // Run git push OverstockMedici $VERSION
+      // Run git push dataturk $VERSION
       'release:push-tag',
       // Run npm publish
       'release:publish',
