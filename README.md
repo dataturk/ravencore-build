@@ -31,9 +31,8 @@ ravencoreTasks('submodule', {skipBrowsers: true});
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/RavenDevKit/ravencore) on the main ravencore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/dataturk/ravencore) on the main ravencore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/RavenDevKit/ravencore/blob/master/LICENSE).
-
+Code released under [the MIT license](https://github.com/dataturk/ravencore/blob/master/LICENSE).
